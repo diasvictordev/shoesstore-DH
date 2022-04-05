@@ -1,0 +1,27 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+nav {
+    height: 122px;
+    width: 100%;
+    background-color: white;
+}
+
+li{
+    text-decoration: none;
+    margin: 10px;
+}
+
+
+
+#logo-nav {
+    margin-top: 9px;
+    margin-bottom: 9px;
+    margin-left: 19px;
+}
+
+#banner{
+    width:100%;
+}
