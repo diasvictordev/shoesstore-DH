@@ -75,11 +75,11 @@ a{
 
 .style-picture{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     gap: 3.375rem;
-    padding-top: 5.125rem;
-    padding-bottom: 12.875rem;
+    padding: 5.125rem 1rem 12.875rem 1rem;
 }
 
 
@@ -102,9 +102,10 @@ a{
     margin: var(--pattern-margin);
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     gap: 1.125rem;
-    padding-top: 3.375rem;
-    padding-bottom: 6.25rem;
+    padding: 3.375rem 1rem 6.25rem 1rem;
+   
 
 }
 
