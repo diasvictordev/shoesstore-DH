@@ -125,8 +125,58 @@ a{
     font-weight: 400;
 }
 
-.sandalia{
-    background-color: white;
-    width: 260px;
-    height: 388px;
+
+.matelasse-container{
+    max-width: var(--pattern-size);
+    margin: var(--pattern-margin);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10.1875rem 1rem 7.25rem 1rem;
+    gap: 1.75rem;
+}
+
+.matelasse-container h1{
+    text-transform: uppercase;
+    font-size: 2.4375rem;
+    line-height: 3.3125rem;;
+}
+
+.matelasse-container span{
+    display: inline-block;
+    color: white;
+    font-size: 2.4375rem;
+    padding: 1.4375rem 5.3125rem;
+    background-color: #C2185B;
+    margin-bottom: 3.4375rem;
+    border-radius: 0.25rem;
+}
+
+.matelasse-container span:hover{
+    background-color: black;
+    color: white;
+}
+
+.footer-bg{
+    background-color: #C2185B;
+}
+
+.footer-container{
+    max-width: var(--pattern-size);
+    margin: var(--pattern-margin);
+    padding: 3.5rem 1rem 1.875rem 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 0.625rem;
+    justify-content: space-between;
+}
+
+.footer-container p, .footer-bg a, .footer-bg h2{
+    color: white;
+    font-weight: 400;
+    line-height: 1.375rem;
+}
+
+.footer-container a{
+    display: block;
 }
