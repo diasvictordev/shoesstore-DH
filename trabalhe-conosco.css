@@ -108,5 +108,28 @@ h1{
     font-family: "Roboto" "sans serif";
     font-weight: 400;
     text-align: left;
+}
 
+.form-info{
+    margin-bottom: 10px;
+}
+
+.form-availability label{
+    cursor: pointer;
+}
+
+.form-availability input{
+    all: unset;
+    border: 1px solid;
+    background-color: #c4c4c4;
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    cursor: pointer;
+
+    
+}
+
+.form-availability input:checked{
+    background-color: #C2185B;
 }
