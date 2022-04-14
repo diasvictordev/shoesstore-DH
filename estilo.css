@@ -22,7 +22,7 @@ a{
 }
 
 :root{
-    --pattern-size: 80rem;
+    --pattern-size: 1280px;
     --pattern-margin: 0 auto;
 }
 
@@ -132,6 +132,7 @@ a{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: flex-end;
     padding: 10.1875rem 1rem 7.25rem 1rem;
     gap: 1.75rem;
 }
