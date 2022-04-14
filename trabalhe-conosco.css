@@ -56,12 +56,6 @@ a{
     color: white;
 }
 
-
-#banner{
-    width:100%;
-}
-
-
 .footer-bg{
     background-color: #C2185B;
 }
@@ -89,6 +83,30 @@ a{
 
 .work-container{
     display: flex;
+    flex-wrap: wrap;
+    column-gap: 4.6875rem;
+    justify-content: center;
+    align-items: center;
     max-width: var(--pattern-size);
     margin: var(--pattern-margin);
+    color: #9B9B9B;
+}
+
+.form-name, .form-email, .form-number, .form-departments, .form-message{
+    display: flex;
+    flex-direction: column;
+}
+
+h1{
+    font-size: 2.4375rem;
+    color: #575757;
+    margin: 3.4375rem auto 2.25rem auto;
+}
+
+.form-name label, .form-email label, .form-number label, .form-departments label, .form-availability p, .form-contact p, .form-message label, .form-curriculum span, .work-info{
+    font-size: 1.125rem;
+    font-family: "Roboto" "sans serif";
+    font-weight: 400;
+    text-align: left;
+
 }

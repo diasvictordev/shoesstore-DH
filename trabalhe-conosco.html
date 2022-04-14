@@ -27,9 +27,6 @@
             </ul>
         </nav>
 
-        <div>
-          <img id="banner" src="imagens/banner.png">
-        </div>
     </header>
 
 <main class="work-container">
@@ -40,22 +37,22 @@
 
         <form class="form-container">
 
-            <section>
+            <section class="form-info form-name">
             <label for="name">Nome</label>
             <input type="text" name="name" id="name" required>
             </section>
 
-            <section>
+            <section class="form-info form-email">
                 <label for="email">Email</label>
                 <input type="email" name="email" id="email" required>
             </section>
 
-            <section>
+            <section class="form-info form-number">
                 <label for="number">Telefone</label>
                 <input type="tel" name="number" id="number" required>
             </section>
 
-            <section>
+            <section class="form-info form-departments">
                 <label for="departments">Departamentos</label>
                 <select name="departments" id="departments">
                     <option value="" selected disabled>--Escolha uma opção--</option>
@@ -66,7 +63,7 @@
                      </select>
             </section>
             
-            <section>
+            <section class="form-info form-availability">
                 <p>Disponibilidade</p>
 
                 <input type="checkbox" name="availability " id="integral" value="integral">
@@ -79,7 +76,7 @@
                 <label for="freelancer">Freelancer</label>
             </section>
 
-            <section>
+            <section class="form-info form-contact">
                 <p>Qual a melhor forma para entrarmos em contato com você?</p>
 
                 <input type="radio" name="contact" id="email" value="email">
@@ -92,18 +89,18 @@
                 <label for="whatsapp">WhatsApp</label>
             </section>
 
-            <section>
+            <section class="form-info form-message">
                 <label for="message">Mensagem</label>
-                <textarea name="message" id="message" cols="30" rows="5">Escreva</textarea>
+                <textarea name="message" id="message" cols="30" rows="5"></textarea>
             </section>
 
-            <section>
+            <section class="form-info form-curriculum">
                 <span>Currículo</span>
                 <label for="curriculum">Upload</label>
                 <input type="file" name="curriculum" id="curriculum" accept=".pdf, .doc" style="visibility: hidden;">
             </section>
 
-            <section>
+            <section class="form-info form-button">
                 <button type="button">Enviar</button>
             </section>
 
@@ -111,10 +108,11 @@
 
     </section>
 
-    <section>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    
+    <section class="work-info">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed <br> do eiusmod tempor incididunt ut labore et dolore magna <br> aliqua. Ut enim ad minim veniam, quis nostrud exercitation <br> ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse <br> cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat <br> cupidatat non proident, sunt in culpa qui officia deserunt <br> mollit anim id est laborum.</p>
+        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco <br> laboris nisi ut aliquip ex ea commodo consequat. Duis aute <br> irure dolor in reprehenderit in voluptate velit esse cillum <br> dolore eu fugiat nulla pariatur. Excepteur sint occaecat <br> cupidatat non proident, sunt in culpa qui officia deserunt <br> mollit anim id est laborum.</p>
     </section>
 
 </main>
